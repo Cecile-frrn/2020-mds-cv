@@ -212,11 +212,13 @@ li:hover .description {
 
 .section4 {
    display: flex;
+   margin: 0 8%;
 }
 
 .Entreprise {
    text-align: center;
    width: 35%;
+   padding: 0 7%;
 }
 
 .Aro {
@@ -235,11 +237,26 @@ li:hover .description {
    font-size: 17px;
 }
 
-
-.DUT .dut1 {
-	margin: auto 50px;
-	
+.plane img {
+   width: 50%;
+}
+.ordi img {
+   width: 50%;
+}
+.book img {
+   width: 50%;
+}
+.movie img {
+   width: 50%;
 }
 
+.deux_icones1 {
+   width: 16%;
+   padding: 2% 0;
+}
+.deux_icones2 {
+   width: 15%;
+   padding: 2% 0;
+}
 
 
