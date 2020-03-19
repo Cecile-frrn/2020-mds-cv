@@ -50,10 +50,18 @@ h1 {
    list-style-type: none;
    padding: 5px;
 }
+
 .mail a {
-   text-decoration: none;
+  text-decoration: none;
+  background: linear-gradient(to top, #D7EFE1 0%, #D7EFE1 40%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+  text-decoration: none;
    color: white;
    font-size: 20px;
+}
+
+.mail a:hover {
+  background-size: 100% 100%;
 }
 
 .linkedin {
@@ -62,11 +70,18 @@ h1 {
 }
 
 .linkedin a {
+   text-decoration: none;
+  background: linear-gradient(to top, #D7EFE1 0%, #D7EFE1 40%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
    list-style-type: none;
    text-decoration: none;
    color: white;
    font-size: 20px;
 }
+.linkedin a:hover {
+  background-size: 100% 100%;
+}
+
 
 
 
@@ -172,9 +187,9 @@ li .description {
 }
 
 /* ---- Hover effects ---- */
-li:hover {
+li:hover .description {
    cursor: pointer;
-  color: #48A4D2;
+  color: white;
 }
 li:hover .description {
   display: block;
