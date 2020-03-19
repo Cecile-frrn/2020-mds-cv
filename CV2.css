@@ -198,6 +198,7 @@ li:hover .description {
    background: white;
    display: table;
    text-align: center; 
+   margin: 5px;
 }
 
 .circle span {
@@ -208,6 +209,13 @@ li:hover .description {
    font-family: arial;
    color: #292F51;
 }
+
+.deux_cercles {
+   display: flex;
+}
+
+
+
 .DUT .dut1 {
 	margin: auto 50px;
 	
