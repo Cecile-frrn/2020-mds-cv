@@ -210,10 +210,30 @@ li:hover .description {
    color: #292F51;
 }
 
-.deux_cercles {
+.section4 {
    display: flex;
 }
 
+.Entreprise {
+   text-align: center;
+   width: 35%;
+}
+
+.Aro {
+   font-size: 25px;
+   font-weight: bold;
+   color: #292F51;
+}
+
+.LBG {
+   font-size: 25px;
+   font-weight: bold;
+   color: #292F51;
+}
+
+.description_entreprise {
+   font-size: 17px;
+}
 
 
 .DUT .dut1 {
